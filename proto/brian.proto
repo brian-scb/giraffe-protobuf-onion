@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package brian.v1;
+
+option csharp_namespace = "Brian.V1";
+
+message BrianRequest {
+  string name = 1;
+}
+
+message BrianResponse {
+  string message = 1;
+  string name = 2;
+}
